@@ -1,0 +1,18 @@
+{
+	"permissions": {
+		"allow": [
+			"Bash(npm test)",
+			"Bash(npm run *)",
+			"Bash(mkdir *)",
+			"Bash(touch *)",
+			"Bash(cp *)"
+		],
+		"deny": [
+			"Bash(sudo *)",
+			"Bash(rm -rf *)"
+		],
+		"ask": [
+			"Bash(rm *)"
+		]
+	}
+}
